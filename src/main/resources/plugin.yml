@@ -1,0 +1,34 @@
+name: ServerCore
+version: '${project.version}'
+main: org.beastrein.ServerCore
+api-version: '1.20.6'
+depend: [ voicechat ]
+load: POSTWORLD
+commands:
+  copyHomes:
+    usage: /<command>
+    permission: bukkit.command.op
+  setHome:
+    usage: /<command>
+  delHome:
+    usage: /<command>
+  home:
+    usage: /<command>
+
+  openInv:
+    usage: /<command>
+    permission: bukkit.command.op
+
+  tpWorld:
+    usage: /<command>
+    permission: bukkit.command.op
+
+  spawn:
+    usage: /<command>
+  fly:
+    usage: /<command>
+    permission: bukkit.command.op
+  discord:
+    usage: /<command>
+  back:
+    usage: /<command>
